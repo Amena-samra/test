@@ -9,11 +9,8 @@
 <meta name="author" content="templatemo">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Stimulus HTML CSS Template</title>
-<!--
-Stimulus Template
-http://www.templatemo.com/tm-498-stimulus
--->
+<title>Amena  HTML CSS Template</title>
+
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -46,245 +43,37 @@ http://www.templatemo.com/tm-498-stimulus
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="#" class="navbar-brand">Amena</a>
+               <a href="/about" class="navbar-brand">Amena Samra </a>
           </div>
 
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About Me</a></li>
-                    <li><a href="#experience" class="smoothScroll">Experiences</a></li>
-                    <li><a href="#quotes" class="smoothScroll">Testimonial</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="/Home" class="smoothScroll">Home</a></li>
+                    <li><a href="/about" class="smoothScroll">About Me</a></li>
+                    <li><a href="/experiences" class="smoothScroll">Experiences</a></li>
+          
+                    <li><a href="/contact" class="smoothScroll">Contact</a></li>
                </ul>
           </div>
 
      </div>
 </div>
 
-
-<!-- Home Section -->
-
-<section id="home" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="home-img"></div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="home-thumb">
-                         <div class="section-title">
-                              <h4 class="wow fadeInUp" data-wow-delay="0.3s">welcome to my website</h4>
-                              <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Amena</strong> currently based in Damascus city.</h1>
-                             
-                              
-                              <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Get Started</a>
-                              
-                         </div>
-                    </div>
-               </div>
+@yield('content')
 
 
-          </div>
-     </div>
-</section>
 
 
-<!-- About Section -->
-
-<section id="about" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-12">
-                    <div class="about-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
-                              <h1>IT Eng</h1>
-                              <p class="color-yellow">I am a recently graduated from Information Technology Engineering college.</p>
-                         </div>
-                         <div class="wow fadeInUp" data-wow-delay="0.8s">
-                              
-                         </div>
-                    </div>
-               </div>
-
-               <div class="col-md-3 col-sm-6">
-                    <div class="background-image about-img"></div>
-               </div>
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="skill-thumb">
-                         <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
-                              <h1>My Skills</h1>
-                              <p class="color-white">  HTML CSS php . Web developer</p>
-                         </div>
-
-                         <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
-                         <strong></strong>
-                              <span class="color-white pull-right">90%</span>
-                                   <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                   </div>
-
-                         <strong>Backend processing</strong>
-                              <span class="color-white pull-right">50%</span>
-                                   <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                                   </div>
-
-                         <strong>HTML5 & CSS3</strong>
-                              <span class="color-white pull-right">80%</span>
-                                   <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                   </div>
-                         </div>
-
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
 
 
-<!-- Service Section -->
-
-<section id="service" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
-                         <i class="fa fa-desktop"></i>
-                              <h3>Interface Design</h3>
-                              <p class="color-white"></p>
-                    </div>
-               </div>
-
-               <div class="col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.2s">
-                         <i class="fa fa-paper-plane"></i>
-                              <h3>Media Strategy</h3>
-                              <p class="color-white">.</p>
-                    </div>
-               </div>
-
-               <div class="bg-dark col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.6s">
-                         <i class="fa fa-table"></i>
-                              <h3>Mobile App</h3>
-                              <p class="color-white"></p>
-                    </div>
-               </div>
-
-               <div class="bg-white col-md-3 col-sm-6">
-                    <div class="wow fadeInUp service-thumb" data-wow-delay="1.8s">
-                         <i class="fa fa-html5"></i>
-                              <h3>Coding</h3>
-                              <p>.</p>
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
 
 
-<!-- Experience Section -->
-
-<section id="experience" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="background-image experience-img"></div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="color-white experience-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
-                              <h1>My Experiences</h1>
-                              <p class="color-white"></p>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading"> <small></small></h3>
-                                   <p class="color-white"></p>
-                              </div>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading"> <small></small></h3>
-                                   <p class="color-white"></p>
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-
-<!-- Education Section -->
-
-<section id="education" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="color-white education-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
-                              <h1>My Education</h1>
-                              <p class="color-white"></p>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">ITEF – college <small>2013 - 2019 </small></h3>
-                                   <p class="color-white"> </p>
-                              </div>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">Alawael - High School <small>2010 - 2012</small></h3>
-                                   <p class="color-white"></p>
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="background-image education-img"></div>
-               </div>
-
-          </div>
-     </div>
-</section>
 
 
 <!-- Quotes Section -->
 
 <section id="quotes" class="parallax-section">
+     <p style="font-size: 50px" ;color : black; > Welcome to My Website </p>
      <div class="overlay"></div>
      <div class="container">
           <div class="row">
@@ -295,68 +84,12 @@ http://www.templatemo.com/tm-498-stimulus
                     <p class="wow fadeInUp" data-wow-delay="1s"></p>
                </div>
 
-          </div>
-     </div>
-</section>
-
-
-<!-- Contact Section -->
-
-<section id="contact" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-12">
-                    <div class="contact-form">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                              <h1 class="color-white">Say hello..</h1>
-                              <p class="color-white">.</p>
-                         </div>
-
-                         <div id="contact-form">
-                              <form action="#template-mo" method="post">
-                                   <div class="wow fadeInUp" data-wow-delay="1s">
-                                        <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
-                                   </div>
-                                   <div class="wow fadeInUp" data-wow-delay="1.2s">
-                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-                                   </div>
-                                   <div class="wow fadeInUp" data-wow-delay="1.4s">
-                                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
-                                   </div>
-                                   <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
-                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send">
-                                   </div>
-                              </form>
-                         </div>
-
-                    </div>
-               </div>
-
-               <div class="col-md-3 col-sm-6">
-                    <div class="background-image contact-img"></div>
-               </div>
-
-               <div class="bg-dark col-md-3 col-sm-6">
-                    <div class="contact-thumb">
-                         <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
-                              <h3 class="color-white"></h3>
-                              <p></p>
-                         </div>
-
-                         <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
-                              <h3 class="color-white">Contact.</h3>
-                              <p><i class="fa fa-phone"></i> 01-0110-0220</p>
-                              <p><i class="fa fa-envelope-o"></i> <a href="amenasamra94@gmail.com">hello@company.co</a></p>
-                              <p><i class="fa fa-globe"></i> <a href="#">company.co</a></p>
-                         </div>
-
-                    </div>
-               </div>
 
           </div>
      </div>
 </section>
+
+
 
 
 <!-- Footer Section -->

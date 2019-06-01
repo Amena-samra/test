@@ -2,7 +2,7 @@
 @extends('index')
 
 @section('content')
-
+<br/>
 <section id="about" class="parallax-section">
      <div class="container">
           <div class="row">

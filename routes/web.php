@@ -22,3 +22,8 @@ Route::get('contact', function () {
 });
 
 
+Route::get('/download', function () {
+    $file = public_path()."/AMENA-CV.pdf";
+    $headers = array('Content-Type : application/pdf',);
+    return Response :: download($file , "AMENA-CV.pdf",$headers);
+});

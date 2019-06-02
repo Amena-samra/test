@@ -43,16 +43,16 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="/about" class="navbar-brand">Amena Samra </a>
+               <a href="{{route('about')}}" class="navbar-brand">Amena Samra </a>
           </div>
 
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/Home" class="smoothScroll">Home</a></li>
-                    <li><a href="/about" class="smoothScroll">About Me</a></li>
-                    <li><a href="/experiences" class="smoothScroll">Experiences</a></li>
+                    <li><a href="{{route('Home')}}" class="smoothScroll">Home</a></li>
+                    <li><a href="{{route('about')}}" class="smoothScroll">About Me</a></li>
+                    <li><a href="{{route('experiences')}}" class="smoothScroll">Experiences</a></li>
           
-                    <li><a href="/contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="{{route('contact')}}" class="smoothScroll">Contact</a></li>
                </ul>
           </div>
 

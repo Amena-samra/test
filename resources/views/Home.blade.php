@@ -18,7 +18,7 @@
                               <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Amena</strong> currently based in Damascus city.</h1>
                              
                               
-                              <a href="/download" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Download My CV</a> 
+                              <a href="{{route('down')}}" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Download My CV</a> 
                               
                          </div>
                     </div>

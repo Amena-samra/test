@@ -6,7 +6,6 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Http\Request;
 
 class SendMail extends Mailable
 {
@@ -17,9 +16,9 @@ class SendMail extends Mailable
      *
      * @return void
      */
-    public function __construct($request)
+    public function __construct()
     {
-        $this->request =$request;
+        
     }
 
     /**
@@ -27,17 +26,8 @@ class SendMail extends Mailable
      *
      * @return $this
      */
-    public function build($mail) use ($request)
+    public function build()
     {
-       // return $this->from($request->email,$request ->name)->subject('contact message')->view('/contact')->with('data',$this->data);
-        Mail :: send('emails.contact-message',[
-           'msg'=> $request -> message,
-           
-       ]);
-        $mail->from($request->email , $request ->name);
-        $mail ->to('momo.samra@gmail.com')->subject('Contact Message');
-
-           });
-        return redirect()->back()->with('flash_message','Thank you for your message .');
+       // return $this->from('momo.samra@gmail.com')->subject('contact message');
     }
 }

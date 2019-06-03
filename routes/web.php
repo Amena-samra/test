@@ -17,9 +17,12 @@ Route::get('experiences', function () {
     return view('experiences');
 })->name('experiences');
 
-Route::get('contact', function () {
-    return view('contact');
-})->name('contact');
+Route::get('contact',['uses'=>'ContactMessageController@create'] 
+)->name('contact');
+
+Route::post('contact',['uses'=>'ContactMessageController@store', 'as' =>'contact'] 
+);
+
 
 
 Route::get('/download', function () {
